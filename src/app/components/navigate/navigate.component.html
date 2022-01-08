@@ -1,0 +1,10 @@
+<mat-icon class='icon' (click)='show()'>{{isShow ? 'arrow_forward' : 'arrow_back'}}</mat-icon>
+<mat-list *ngIf='isShow'>
+    <mat-list-item>NAVIGATION MENU</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item routerLink='' class='my-nav'>Profile</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item routerLink='/Contact' class='my-nav'>Contact</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item routerLink='/Gallery' class='my-nav'>Gallery</mat-list-item>
+</mat-list>

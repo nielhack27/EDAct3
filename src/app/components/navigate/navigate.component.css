@@ -1,0 +1,31 @@
+mat-list{
+    position: fixed;
+    left:0;
+    top:10;
+    z-index: 2;
+    padding-top: 30px;
+    width:230px;
+    box-shadow: 5px 0px 10px rgba(0,0,0,.5);
+    height: 90vh;
+    background-color: white;
+}
+
+
+.icon{
+    font-size: 2rem;
+    z-index: 3;
+    position: fixed;
+    transform: translate(10px);
+}
+
+.my-nav:hover{
+    transform:scale(1px);
+    background-color: rgba(255,255,255,.8);
+    color:red;
+}
+
+mat-icon{
+    position: sticky;
+    left:0; 
+    top:10px;
+}
